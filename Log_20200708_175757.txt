@@ -1,0 +1,95 @@
+[3] 17:57:57: Log started for 'D:\Krutika\ToscaWorkspace\Netmeds\NetmedsProject.tws'
+[3] 17:57:57: Log level: 4
+[3] 17:57:57: Release: 13.0.0.28914
+[3] 17:57:58: Resolved assembly 'combit.ListLabel21, Version=21.5.6045.29216, Culture=neutral, PublicKeyToken=a7a30592cb4a94be' from 'C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\Reporting\ListAndLabel\MostRecent\combit.ListLabel21.dll'
+[3] 17:58:00: No service discovery configured.
+[3] 17:58:00:  + DistributedExecutionAddIn: DistributedExecutionAddIn 13.0.0.1119 (29017)
+[3] 17:58:00:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 13.0.0.1119 (28914)
+[3] 17:58:00:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 13.0.0.1119 (28914)
+[3] 17:58:00:  + IntegrationManagementAddIn: IntegrationManagementAddIn 13.0.0.1119 (28914)
+    + : SAPSolutionManagerIntegration 13.0.0.223 (223)
+[3] 17:58:00: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 17:58:00: Searcher found 0 results in 92.0399 ms
+[3] 17:58:00:  + OptIntAddIn: OptIntAddIn 13.0.0.1119 (28914)
+[3] 17:58:00:  + RemoteControl: RemoteControlAddIn 13.0.0.1119 (28914)
+[3] 17:58:00:  + Reporting: ReportingAddIn 13.0.0.1119 (28914)
+[3] 17:58:00:  + ReportingUI: ReportingUIAddIn 13.0.0.1119 (28914)
+[3] 17:58:00:  + RequirementsManagementAddIn: RequirementsManagement 13.0.0.1119 (28914)
+[3] 17:58:00:  + RequirementsManagementUIAddIn: RequirementsManagementUI 13.0.0.1119 (28914)
+[3] 17:58:00:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 13.0.0.1119 (28914)
+[3] 17:58:00:  + TestCaseDesign: TestCaseDesign 13.0.0.1119 (28914)
+[3] 17:58:00:  + ControlFlowDiagram: TestCaseVisualizationAddIn 13.0.0.1119 (29159)
+[3] 17:58:00:  + XDefinitions: XDefinitions 13.0.0.1119 (28914)
+[3] 17:58:00:  + XDefinitionsUI: XDefinitionsUI 13.0.0.1119 (28914)
+[3] 17:58:05: Error getting ldap domain: The specified domain does not exist or cannot be contacted.
+[3] 17:58:05: Workspace.Login for 'Admin'succeeded
+[3] 17:58:05: TCShell started (13.0.0.28914)
+[4] 17:58:05: Current = 'DemoProject'
+[3] 17:58:05: Command: //navigate to an ExecutionList
+ jumptonode
+[4] 17:58:05: Current = 'NetmedsExecution'
+[3] 17:58:05: Command: /Execution/ExecutionLists/NetmedsExecution//check out Execution List
+ task
+[3] 17:58:06: Task 'Checkout' started!
+[4] 17:58:06:  ShowStatusInfo: 'Checkout: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 17:58:06:  ShowStatusInfo: 'Checkout: Connecting to Common Repository succeeded'
+[3] 17:58:06: Started update with local revision 6 against common revision 8 with deferred revisions ''
+[3] 17:58:06: Updating to Revision: 8
+[3] 17:58:06: Updating to Revision: 8
+[4] 17:58:06:  ShowStatusInfo: 'Checkout: Connecting to Common Repository (timeout in 5 seconds) ... '
+[4] 17:58:06:  ShowStatusInfo: 'Checkout: Connecting to Common Repository succeeded'
+[4] 17:58:07:  ShowStatusInfo: 'BeforeTeamTaskCommit'
+[3] 17:58:08: Task 'Checkout' finished
+[3] 17:58:08: Command: checkout//reset Actual log
+ task
+[3] 17:58:08: Task 'Clear Log' started!
+[3] 17:58:08: Command: "clear log"//start Execution list
+ task
+[3] 17:58:08: Task 'Run' started!
+[4] 17:58:08:  ShowStatusInfo: 'Run started with TBoxRunTaskExecutor'
+[4] 17:58:08:  ShowStatusInfo: 'Verifying required licenses ...'
+[4] 17:58:10:  ShowStatusInfo: 'Execution Running ...'
+[4] 17:59:40:  ShowStatusInfo: 'Processing execution results ...'
+[3] 17:59:40: AgentResults count: 1
+[3] 17:59:42: executionResponses count: 1
+[3] 17:59:43: Task 'Run' finished
+[3] 17:59:43: Command: run//save result
+ save
+[3] 17:59:43:  Save started!
+[3] 17:59:44:  Save finished!
+[3] 17:59:44: Command: task
+[3] 17:59:44: Task 'Print Report ... ExecutionEntries with ActualLog' started!
+[4] 17:59:44:  ShowStatusInfo: 'Print Report ... ExecutionEntries with ActualLog'
+[3] 17:59:44: Resolved assembly 'CrystalDecisions.ReportAppServer.ClientDoc, Version=12.0.1100.0, Culture=neutral, PublicKeyToken=692fbea5521e1304' from 'C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\Reporting\CrystalReports\CrystalDecisions.ReportAppServer.ClientDoc.dll'
+[3] 17:59:44: Resolved assembly 'CrystalDecisions.ReportAppServer.DataDefModel, Version=12.0.1100.0, Culture=neutral, PublicKeyToken=692fbea5521e1304' from 'C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander\Reporting\CrystalReports\CrystalDecisions.ReportAppServer.DataDefModel.dll'
+[3] 17:59:44: Search started on 1 objects for query '->SELF:ExecutionList'
+[3] 17:59:44: Searcher found 1 results in 0 ms
+[3] 17:59:44: Search started on 1 objects for query '=>SUBPARTS:ExecutionEntry'
+[3] 17:59:44: Searcher found 1 results in 0 ms
+[3] 17:59:44: Search started on 1 objects for query '->ParentFolder:ExecutionEntryFolder'
+[3] 17:59:44: Searcher found 0 results in 0 ms
+[3] 17:59:44: Search started on 1 objects for query '->ActualLog:ExecutionTestCaseLog'
+[3] 17:59:44: Searcher found 1 results in 3.0624 ms
+[3] 17:59:44: Search started on 1 objects for query '->TestCase:TestCase'
+[3] 17:59:44: Searcher found 1 results in 0 ms
+[3] 17:59:44: Search started on 1 objects for query '->ActualExecutionLog:ExecutionLog'
+[3] 17:59:44: Searcher found 1 results in 0 ms
+[3] 17:59:44: Search started on 'NetmedsExecution' for query '->SELF:ExecutionList'
+[3] 17:59:44: Searcher found 1 results in 1.002 ms
+[3] 17:59:44: Search started on 'NetmedsExecution' for query '=>SUBPARTS:ExecutionEntry'
+[3] 17:59:44: Searcher found 1 results in 0 ms
+[3] 17:59:44: Search started on 'NetmedsSelectProduct' for query '->ParentFolder:ExecutionEntryFolder'
+[3] 17:59:44: Searcher found 0 results in 0 ms
+[3] 17:59:44: Search started on 'NetmedsSelectProduct' for query '->ActualLog:ExecutionTestCaseLog'
+[3] 17:59:44: Searcher found 1 results in 0 ms
+[3] 17:59:44: Search started on 'NetmedsSelectProduct' for query '->TestCase:TestCase'
+[3] 17:59:44: Searcher found 1 results in 0 ms
+[3] 17:59:44: Search started on 'NetmedsExecution' for query '->ActualExecutionLog:ExecutionLog'
+[3] 17:59:44: Searcher found 1 results in 0 ms
+[3] 17:59:47: Task 'Print Report ... ExecutionEntries with ActualLog' finished
+[3] 17:59:47: Command: "Print Report ...ExecutionEntries with ActualLog" C:\\Users\\Matryxsoft\\Example.pdf//save result
+ save
+[3] 17:59:47: Command: exit
+[4] 17:59:47: Current = 'DemoProject'
+[3] 17:59:47: Closing Workspace!
+[3] 17:59:47: Log closed!

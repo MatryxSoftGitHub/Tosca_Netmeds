@@ -1,0 +1,102 @@
+[3] 09:09:45: Log started for 'D:\Krutika\Tosca\Netmeds\NetmedsProject.tws'
+[3] 09:09:45: Log level: 4
+[3] 09:09:45: Release: 13.0.0.28992
+[3] 09:09:48: No service discovery configured.
+[3] 09:09:48:  + DistributedExecutionAddIn: DistributedExecutionAddIn 13.0.0.1119 (29017)
+[3] 09:09:48:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 13.0.0.1119 (28914)
+[3] 09:09:48:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 13.0.0.1119 (28914)
+[3] 09:09:48:  + IntegrationManagementAddIn: IntegrationManagementAddIn 13.0.0.1119 (28914)
+    + : SAPSolutionManagerIntegration 13.0.0.223 (223)
+[3] 09:09:48: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 09:09:48: Searcher found 0 results in 103.0011 ms
+[3] 09:09:48:  + OptIntAddIn: OptIntAddIn 13.0.0.1119 (28914)
+[3] 09:09:48:  + RemoteControl: RemoteControlAddIn 13.0.0.1119 (28914)
+[3] 09:09:48:  + Reporting: ReportingAddIn 13.0.0.1119 (28914)
+[3] 09:09:48:  + ReportingUI: ReportingUIAddIn 13.0.0.1119 (28914)
+[3] 09:09:48:  + RequirementsManagementAddIn: RequirementsManagement 13.0.0.1119 (28914)
+[3] 09:09:48:  + RequirementsManagementUIAddIn: RequirementsManagementUI 13.0.0.1119 (28914)
+[3] 09:09:48:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 13.0.0.1119 (28914)
+[3] 09:09:48:  + TestCaseDesign: TestCaseDesign 13.0.0.1119 (28914)
+[3] 09:09:48:  + ControlFlowDiagram: TestCaseVisualizationAddIn 13.0.0.1119 (29159)
+[3] 09:09:48:  + XDefinitions: XDefinitions 13.0.0.1119 (28914)
+[3] 09:09:48:  + XDefinitionsUI: XDefinitionsUI 13.0.0.1119 (28914)
+[3] 09:09:48: Opened from Workspace File 'D:\Krutika\Tosca\Netmeds\NetmedsProject.tws'
+[3] 09:09:50: Error getting ldap domain: The specified domain does not exist or cannot be contacted.
+[3] 09:09:50: Trying to authenticate ldap user Matryxsoft against workspace
+[3] 09:09:52: Error getting ldap domain: The specified domain does not exist or cannot be contacted.
+[3] 09:09:53: Error getting NativeID From WindowsUserSystem.Runtime.InteropServices.COMException (0x80005000): Unknown error (0x80005000)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at Tricentis.TCCore.Base.Ownership.LDAP.LDAPAuthentication.getNativeID(String username, String domainname, String password, Boolean processIdentityMustMatch)
+[3] 09:09:53: Failed to authenticate ldap user against workspace
+[4] 09:09:53:  ShowStatusInfo: 'Ready'
+[3] 09:09:55: Workspace.Login for 'Admin'succeeded
+[4] 09:09:56:  ShowStatusInfo: 'Refresh all finished'
+[3] 09:09:57: OpenWorkspace took 00:00:11.9429402 to finish
+[4] 09:09:58:  ShowStatusInfo: 'Ready'
+[4] 09:10:02:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 09:10:02:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 09:10:02:  ShowStatusInfo: 'Refresh navigation view 'Requirements''
+[4] 09:10:02:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 09:10:02:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 09:10:02:  ShowStatusInfo: 'Ready'
+[4] 09:10:02:  ShowStatusInfo: 'Refresh navigation view 'Issues''
+[4] 09:10:02:  ShowStatusInfo: 'Refresh navigation view 'Configurations''
+[4] 09:10:02:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 09:10:02:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 09:10:02:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 09:10:02:  ShowStatusInfo: 'Refresh detail view 'Requirements''
+[4] 09:10:02:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 09:10:02:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 09:10:02:  ShowStatusInfo: 'Ready'
+[4] 09:10:02:  ShowStatusInfo: 'Refresh detail view 'Issues''
+[4] 09:10:02:  ShowStatusInfo: 'Refresh detail view 'Configurations''
+[4] 09:10:02:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 09:10:02:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 09:10:02:  ShowStatusInfo: 'Refresh all finished'
+[4] 09:10:03:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 09:10:03:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 09:10:03:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 09:10:03:  ShowStatusInfo: 'Refresh navigation view 'Requirements''
+[4] 09:10:03:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 09:10:03:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 09:10:03:  ShowStatusInfo: 'Ready'
+[4] 09:10:03:  ShowStatusInfo: 'Refresh navigation view 'Issues''
+[4] 09:10:03:  ShowStatusInfo: 'Refresh navigation view 'Configurations''
+[4] 09:10:03:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 09:10:03:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 09:10:03:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 09:10:03:  ShowStatusInfo: 'Refresh detail view 'Requirements''
+[4] 09:10:03:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 09:10:03:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 09:10:03:  ShowStatusInfo: 'Ready'
+[4] 09:10:03:  ShowStatusInfo: 'Refresh detail view 'Issues''
+[4] 09:10:03:  ShowStatusInfo: 'Refresh detail view 'Configurations''
+[4] 09:10:03:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 09:10:03:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 09:10:03:  ShowStatusInfo: 'Refresh all finished'
+[4] 09:10:06:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 09:10:06:  ShowStatusInfo: 'Ready'
+[4] 09:10:06:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 09:10:06:  ShowStatusInfo: 'Ready'
+[4] 09:10:06:  ShowStatusInfo: 'Refresh view finished'
+[4] 09:10:11:  ShowStatusInfo: 'Ready'
+[4] 09:10:20:  ShowStatusInfo: '1 object selected'
+[4] 09:10:21:  ShowStatusInfo: 'Ready'
+[4] 09:10:21:  ShowStatusInfo: '1 object selected'
+[4] 09:10:25:  ShowStatusInfo: 'Ready'
+[4] 09:11:40:  ShowStatusInfo: '1 object selected'
+[4] 09:11:45:  ShowStatusInfo: 'Ready'
+[4] 09:11:45:  ShowStatusInfo: '1 object selected'
+[4] 09:11:50:  ShowStatusInfo: 'Ready'
+[4] 09:11:50:  ShowStatusInfo: '1 object selected'
+[4] 09:11:55:  ShowStatusInfo: 'Ready'
+[4] 09:11:56:  ShowStatusInfo: '1 object selected'
+[4] 09:11:56:  ShowStatusInfo: 'Ready'
+[4] 09:11:59:  ShowStatusInfo: 'The key combination (Delete) is not a command on the selected object(s)'
+[4] 09:12:04:  ShowStatusInfo: 'Ready'
+[3] 09:12:27: Closing Workspace!
+[3] 09:12:28: Log closed!
